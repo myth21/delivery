@@ -1,0 +1,17 @@
+GET http://localhost:8888/deliveries/
+Content-Type: application/json
+
+###
+
+POST http://localhost:8888/deliveries/
+Content-Type: application/json
+
+{
+  "receiver_name": "Ivan",
+  "receiver_phone": "895392100XX",
+  "receiver_address": "Lenina street 12",
+  "date_time_from": "2023-07-05 12:00:00",
+  "date_time_to": "2023-07-05 14:31:31",
+  "comment": "a comment",
+  "price": 321
+}
